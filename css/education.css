@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body, html {
+  padding: 0;
+  margin: 0;
+  background-color: #e9e5e1;
+}
+
+header {
+  padding-left: 20px;
+  font-size: 20px;
+  font-family: Bebas Neue, 'Times New Roman', Times, serif;
+  display: flex;
+  position: fixed;
+  background-color: #e9e5e1;
+  width: 100%;
+  height: 100px;
+  top: 0;
+  left: 0;
+  border-bottom: inset;
+}
+
+header h1 {
+text-align: center;
+align-self: center;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav a {
+  text-decoration: none;
+  width: 100px;
+  height: auto;
+  text-align: center;
+  align-self: center;
+  color: black;
+  margin: 5px;
+  margin-top: 15px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#education-text {
+  font-family: Bebas Neue, 'Times New Roman', Times, serif;
+  font-size: 35px;
+  text-align: center;
+  align-self: center;
+  padding: 20px;
+  padding-top: 100px;
+  color: #0d222d;
+  background-color: #ffffff;
+  border-bottom: groove;
+}
+
+#education-text  td, tr, th {
+  border: solid 3px #0d222d;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+#education-text table {
+  display: grid;
+  justify-content: center;
+}
+
+#education-text th {
+  width: 400px;
+}
+
+#education-text td {
+  width: 150px;
+}
+
+#certifications {
+  font-family: Bebas Neue, 'Times New Roman', Times, serif;
+  font-size: 35px;
+  text-align: center;
+  align-self: center;
+  padding: 20px;
+  color: #0d222d;
+  border-bottom: groove;
+}
+
+#certifications  td, tr, th {
+  border: solid 3px #0d222d;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+#certifications table {
+  display: grid;
+  justify-content: center;
+}
+
+#certifications th {
+  width: 400px;
+}
+
+#certifications td {
+  width: 150px;
+}
+
+footer {
+  display: flex;
+  background-color: #e9e5e1;
+  margin-top: 150px;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding-top: 100px;
+}
+
+footer p {
+  color: #0d222d;
+}
+
+footer nav {
+  display: flex;
+}
+
+footer nav a {
+  color: #0d222d;
+  margin: 10px;
+  font-size: 25px;
+}

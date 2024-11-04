@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Small Business Website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #005f73;
+            color: white;
+            padding: 15px 0;
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin-left: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Parallax Section CSS Code */
+        #hero {
+            background-image: url('https://i.imgur.com/Iqn4FBq.jpg');
+            height: 400px;
+            text-align: center;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px #000000;
+        }
+
+        .hero-content {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+
+        }
+
+        .hero-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #ee6c4d;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .hero-button:hover {
+            background-color: #d64b2a;
+        }
+
+        footer {
+            background-color: #005f73;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        #services {
+            background-color: #fff;
+            padding: 20px;
+            text-align: left;
+        }
+
+        #services h2 {
+            color: #007bff;
+            margin-bottom: 15px;
+        }
+
+        #services ul {
+            list-style-type: circle;
+            margin-left: 20px;
+        }
+
+        #services li {
+            margin-bottom: 10px;
+        }
+
+        #about {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: left;
+        }
+
+        #about h2 {
+            color: #28a745;
+            margin-bottom: 15px;
+        }
+
+        #contact {
+            background-color: #fff;
+            padding: 20px;
+            text-align: left;
+        }
+
+        #contact p {
+            margin-bottom: 10px;
+        }
+
+        #services li:hover,
+        #contact p:hover {
+            color: #0056b3;
+            cursor: pointer;
+        }
+
+        @media screen and (max-width:768px) {
+            #services, #about, #contact {
+                text-align: center;
+            }
+
+            #services ul {
+                list-style-type: none;
+                padding: 0px;
+            }
+        }
+
+
+    </style>
+
+</head>
+    <body>
+        <header>
+            <div class="header-content">
+                <h1>Our Business Name</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section id="hero">
+            <div class="hero-content">
+                <h2>Welcome to Our Business</h2>
+                <p>Your one stop solution for all your needs!</p>
+                <a href="#contact" class="hero-button">Get in touch</a>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>We offer a wide range of services to help your business grow:</p>
+            <ul>
+                <li>Consulting Services</li>
+                <li>Professional Training</li>
+                <li>Marketing and Advertising Solutions</li>
+            </ul>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are a dedicated team with over 10 years of experience in business development and management. Our mission is to provide high-quality services tailored to each client's unique needs.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Phone: (111) 111-1111</p>
+            <p>Email: contact.ourbusiness@gmail.com</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Small Business. All rights reserved.</p>
+        </footer>
+
+    </body>
+</html>
