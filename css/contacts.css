@@ -56,30 +56,17 @@ a:hover {
   border-bottom: groove;
 }
 
-#email-form {
+#contacts-information {
   font-family: Bebas Neue, 'Times New Roman', Times, serif;
   font-size: 35px;
   text-align: center;
   align-self: center;
   padding: 20px;
-  padding-top: 50px;
-  background-color: #e9e5e1;
+  background-color: #ffffff;
   color: #0d222d;
   border-bottom: groove;
 }
 
-input {
-  border-radius: 3px;
-}
-
-input[type="submit"] {
-  font-family: Bebas Neue, 'Times New Roman', Times, serif;
-  background-color: #ffffff;
-}
-
-input[type="submit"]:hover {
-  background-color: antiquewhite;
-}
 
 footer {
   display: flex;
