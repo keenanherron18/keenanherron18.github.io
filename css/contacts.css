@@ -56,6 +56,10 @@ a:hover {
   border-bottom: groove;
 }
 
+#contacts-text img {
+border-radius: 20px;
+}
+
 #contacts-information {
   font-family: Bebas Neue, 'Times New Roman', Times, serif;
   font-size: 35px;
